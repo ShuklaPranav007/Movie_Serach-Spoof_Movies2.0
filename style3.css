@@ -1,0 +1,115 @@
+
+body{
+    /* overflow: hidden; */
+    margin: 0;
+    /* background-color: rgb(213, 109, 91); */
+    /* color: white; */
+    overflow: hidden;
+    /* display: flex; */
+    height: 100vh;
+    /* background: url("./bg2.jpg") no-repeat center center/cover; */
+    background-color: #F9EFDB;
+}
+.main{
+    display: flex;
+    height: 100vh;
+    /* color: white; */
+}
+.header {
+    background-color: #9DBC98;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 1rem;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 2rem;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+}
+.sidebar{
+    background-color:#EBD9B4;
+    width: 10rem;
+    margin-top: 2rem;
+    overflow: auto;
+    /* opacity: 0.6; */
+}
+.genre-head{
+    margin: 1rem;
+    padding: 0.5rem;
+    font-weight: 900;
+}
+.genre button{
+    background-color: #D37676;
+    color: #fff;
+    /* padding: 0.5rem; */
+    font-size: 1rem;
+    border:2px solid #F9EFDB;
+    cursor: pointer;
+    margin: 0.5rem;
+    border-radius: 10px;
+    width: 80%;
+}
+.genre h3{
+    opacity: 0.8;
+}
+.genre h3:hover{
+    opacity: 1;
+}
+/* .genre i{
+    
+} */
+/* .main-content{
+    flex: 1;
+    overflow: auto;
+    margin-top: 10rem;
+    justify-content: center;
+    align-content: center;
+} */
+.start {
+    background-color: #D37676;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border:2px solid #F9EFDB;
+    cursor: pointer;
+    border-radius: 10px;
+} 
+.display{
+    justify-content: center;
+}
+.footer{
+    background-color: #638889;
+    /* color: #fff; */
+    text-align: center;
+    padding: 0.2rem 0;
+    position: fixed;
+    bottom: 0;
+    /* height: 1rem; */
+    width: 100%; 
+}
+.logo{
+    display: flex;
+}
+.name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0.5rem 0 0.5rem 0;
+    padding: 0.5rem;
+}
+.logo img{
+    height:1.5rem;
+    width: 1.5rem;
+    border-radius: 100%;
+    margin: 0.5rem 0 0.5rem 0;
+    padding: 0.5rem;
+}
